@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 
 function TodoForm({addTodo}) {
@@ -10,6 +10,13 @@ function TodoForm({addTodo}) {
       addTodo(value);
       setValue('');
     }
+
+    useEffect(() => {
+        console.log('useEffect called');
+        return () => {
+            console.log('unmount');
+        };
+      }, [value]);
   
     return (
       <form onSubmit={handleSubmit}>
