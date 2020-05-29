@@ -8,7 +8,6 @@
   background: #e8e8e8;
   border-radius: 4px;
   padding: 5px;
-  max-width: 400px;
 }
 
 .todo {
@@ -30,4 +29,9 @@
 .delete {
   background-color: rgb(38, 79, 211);
   color: white;
+}
+
+.input {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  width: 99%;
 }
