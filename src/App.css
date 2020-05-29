@@ -22,3 +22,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.complete {
+  background-color: rgb(190, 255, 190);
+}
+
+.delete {
+  background-color: rgb(38, 79, 211);
+  color: white;
+}
