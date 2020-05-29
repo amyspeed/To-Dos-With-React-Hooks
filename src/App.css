@@ -1,13 +1,24 @@
 .app {
-  background: #209cee;
+  background: rgb(0, 48, 80);
   padding: 30px;
   height: 100vh;
+  color: white;
+}
+
+.light-theme {
+  background: rgb(206, 236, 255);
+  color: black;
+}
+
+h1 {
+  text-align: center;
 }
 
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
   padding: 5px;
+  color: black;
 }
 
 .todo {
@@ -27,7 +38,7 @@
 }
 
 .delete {
-  background-color: rgb(38, 79, 211);
+  background-color: rgb(211, 38, 104);
   color: white;
 }
 
@@ -37,5 +48,6 @@
 }
 
 .hook {
-  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+  font-weight: bolder;
 }
